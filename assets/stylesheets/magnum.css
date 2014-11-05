@@ -1,0 +1,334 @@
+
+@font-face {
+    font-family: 'dinregular';
+    src: url('fonts/din-mediumalternate-webfont.eot');
+    src: url('fonts/din-mediumalternate-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/din-mediumalternate-webfont.woff2') format('woff2'),
+         url('fonts/din-mediumalternate-webfont.woff') format('woff'),
+         url('fonts/din-mediumalternate-webfont.ttf') format('truetype'),
+         url('fonts/din-mediumalternate-webfont.svg#dinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------------- RESET ENDS --------------------*/
+
+body{
+	background:url('../images/bg.jpg');
+	background-size:cover;
+}
+
+.clearfix 
+{
+	margin: 0;
+	padding: 0;
+}
+
+.header
+{
+	position: relative;
+	background: url('../images/header.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	border-bottom: 2px solid #c5b38c;
+}
+
+.bg
+{
+	background: url('../images/bg.jpg');  no-repeat center center fixed; 
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+hr
+{
+	border-color: #bebebe;
+	size: 10;
+}
+.fb
+{
+	width:10%;
+	position: absolute;
+	top: 25%;
+	right: 10%;
+}
+
+.tw
+{
+	width:10%;
+	position: absolute;
+	top: 25%;
+	right: 5%;
+}
+
+.mag
+{
+	margin: 1%;
+}
+
+#city
+{
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	font-family: dinregular;
+	font-size: 1em;
+	font-weight:bold;
+	background: #daa652;
+	border: none;
+	color: #8e5307;
+	padding-left: 20px;
+	margin-top: 1%;
+}
+
+.search, .seach:focus
+{
+	width: 98%;
+	height: 40px;
+	border-radius: 5px;
+	font-family: dinregular;
+	font-size: 1em;
+	background: #cb8b38; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cb8b38 0%, #e3ba71 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb8b38), color-stop(100%,#e3ba71)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #cb8b38 0%,#e3ba71 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #cb8b38 0%,#e3ba71 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #cb8b38 0%,#e3ba71 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #cb8b38 0%,#e3ba71 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb8b38', endColorstr='#e3ba71',GradientType=0 ); /* IE6-9 */
+	border: none;
+	color: #8e5307;
+	padding-left: 60px;
+	position: relative;
+}
+
+.ser1
+{
+	position: absolute;
+	height: 42px;
+	z-index: 5;
+	/* top: 0%; */
+	left: 0;
+}
+
+.ser2
+{
+	position: absolute;
+height: 40px;
+z-index: 5;
+top: 0;
+left: 99%;
+}
+
+.wrapper
+{
+	position: relative;
+}
+
+.mb_dec
+{
+	width: 100%;
+	height: 45px;
+	border-left: 2px solid #ecd196;
+}
+
+#btn_dec {
+	cursor: pointer;
+}
+
+.mb_ser
+{
+	width: 100%;
+	height: 43px;
+	background: url('../images/mobile_search_icon.jpg');
+	background-size: 70% 100%;
+	font-size: 1em;
+	font-weight:bold;
+	padding-left: 30%;
+	color: #915301;
+	border: none;
+	border-left: 2px solid #ecd196;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #915801;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #915801;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #915801;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #915801;
+}
+
+#fake ul
+{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+#fake ul li
+{
+	width: 100%;
+	background: #e2b86d;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 2px solid #c5923f;
+	font-family: 'dinregular';
+	color: #331303;
+	font-size: 1.5em;
+}
+
+#fake .active 
+{
+
+	background: #9e580e;
+	border-bottom: 2px solid #a35f15;
+}
+
+#mapholder
+{
+	margin-top:2%;
+	width: 100%;
+}
+
+.lst
+{
+	margin-top: 2%;
+	height: 400px;
+	/* overflow-y: scroll; */
+}
+
+#sel_list{
+	overflow:auto;
+	height:400px;
+}
+
+.mag_store
+{
+	width: 100%;
+	font-family: 'Helvetica';
+	color: #3b1c07;
+	background: url('../images/list_box.png');
+	background-size: 100% 100%;
+	opacity:0.8;
+	cursor: pointer;
+}
+
+.mag_store.active {
+	opacity:1;
+}
+
+.mag_store div {
+	padding-top:15px;
+
+}
+
+.mag_store img {
+	/* padding-bottom: 30px; */
+	width:50%;
+
+}
+
+.mob_ser2 {
+	float: right;
+}
+
+.preloader {
+	display: none;
+	position: fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+	background: rgba(255,255,255,0.5);
+	/* background:url('../images/bg.jpg');
+	background-size:cover; */
+}
+
+.preloader img {
+	height: 24px;
+	width: 24px;
+	left: 50%;
+	top: 50%;
+	margin: -12px 0px 0px -12px;
+	position: fixed;
+}
+.hide
+{
+	display: none;
+}
+
+#pre{
+	width: 300px;
+	height: 160px;	
+	margin:auto auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
