@@ -109,6 +109,12 @@
 			<div class="preloader">
 				<img src="assets/images/loader.gif"></img>
 			</div>
+			<input type="hidden" id="clat" value="">
+			<input type="hidden" id="clng" value="">
+
+			<input type="hidden" id="slat" value="">
+			<input type="hidden" id="slng" value="">
+
 		</div>
 		</div>
 	</body>
